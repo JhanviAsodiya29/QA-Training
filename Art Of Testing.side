@@ -1,0 +1,194 @@
+{
+  "id": "57338f5e-f25e-43b1-8351-c27f90aa7043",
+  "version": "2.0",
+  "name": "Art Of Testing",
+  "url": "https://artoftesting.com",
+  "tests": [{
+    "id": "f8f15519-cebe-409b-872b-e926dd4b3597",
+    "name": "Sample Page",
+    "commands": [{
+      "id": "b71f7863-48b2-48f1-980b-429b9268c823",
+      "comment": "",
+      "command": "open",
+      "target": "/sampleSiteForSelenium",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "125b4655-70ef-4117-9d1d-b7cdb21457f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "607b003b-2a8a-4bf3-8f9e-ce8ff3086bd2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=This is a link",
+      "targets": [
+        ["linkText=This is a link", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'This is a link')]", "xpath:link"],
+        ["xpath=//article[@id='post-1089']/div/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com/')]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'This is a link')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6207",
+      "windowTimeout": 2000
+    }, {
+      "id": "f47f1cfd-1242-4cfe-9ce3-2388c8906a50",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "485e2913-cb87-42ae-a05c-5a43bf0df552",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6207}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94718946-4a98-4718-852c-18daa690848a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccbbc441-d13d-4a21-b2a4-b12e3d4368b0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c1a5ff5-7e2d-4d6b-89a5-32fbbf67070e",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=firstName", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7962f10-93a9-470b-b036-97f942907605",
+      "comment": "",
+      "command": "type",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=firstName", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[5]/input", "xpath:idRelative"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": "Jhanvi Asodiya"
+    }, {
+      "id": "16c79d6d-1b45-4f63-b3ec-60dde7b8060f",
+      "comment": "",
+      "command": "click",
+      "target": "id=idOfButton",
+      "targets": [
+        ["id=idOfButton", "id"],
+        ["css=#idOfButton", "css:finder"],
+        ["xpath=//button[@id='idOfButton']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[6]/button", "xpath:idRelative"],
+        ["xpath=//p[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f0f568-952f-4279-b1e4-21336a1116b8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,64)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a4198a6-4d86-4613-9826-fe71de7ce987",
+      "comment": "",
+      "command": "click",
+      "target": "id=female",
+      "targets": [
+        ["id=female", "id"],
+        ["css=#female", "css:finder"],
+        ["xpath=//input[@id='female']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b444ac47-5e36-4429-aa87-78db67cdf3c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(13) > input:nth-child(1)",
+      "targets": [
+        ["css=form:nth-child(13) > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Automation']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/form[2]/input", "xpath:idRelative"],
+        ["xpath=//form[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c52d739c-4e68-4b1b-882f-5e2778ef7f1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=form:nth-child(13) > input:nth-child(3)",
+      "targets": [
+        ["css=form:nth-child(13) > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Performance']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/form[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//form[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee667ed-457c-40bd-a465-a9f38dcb33ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=testingDropdown",
+      "targets": [
+        ["id=testingDropdown", "id"],
+        ["css=#testingDropdown", "css:finder"],
+        ["xpath=//select[@id='testingDropdown']", "xpath:attributes"],
+        ["xpath=//article[@id='post-1089']/div/div/p[13]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c7e137a-a96b-4d4e-8731-989c6f4092f6",
+      "comment": "",
+      "command": "select",
+      "target": "id=testingDropdown",
+      "targets": [],
+      "value": "label=Manual Testing"
+    }, {
+      "id": "b975df9b-fe2f-4ecd-970d-efcbc7344667",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "447a6f12-7a5b-4ea3-b19b-4dbf0e7bd23b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8f15519-cebe-409b-872b-e926dd4b3597"]
+  }],
+  "urls": ["https://artoftesting.com/"],
+  "plugins": []
+}
