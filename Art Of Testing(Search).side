@@ -1,0 +1,70 @@
+{
+  "id": "d361a877-9902-4f55-a251-6c624197451a",
+  "version": "2.0",
+  "name": "Art Of Testing(Search)",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "08b95b94-a27a-45bf-87c1-a7063fc72702",
+    "name": "Search",
+    "commands": [{
+      "id": "44d8275e-9f0e-446d-8587-c21ac4f86d5a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29c2ce3f-a96f-4c83-90e1-2e1a76773bb6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c05fa652-ecde-48ce-923d-f9912f1fa255",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Art of Testing"
+    }, {
+      "id": "0436de95-67dd-4dda-8c0f-b63ed089b486",
+      "comment": "",
+      "command": "click",
+      "target": "css=.WggQGd > span",
+      "targets": [
+        ["css=.WggQGd > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'art of testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b80f3fbc-c40d-4c80-a111-c7176ac637fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ArtOfTesting: Learn Testing Online with Free Tutorials')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "955396bb-ee1c-4c43-b198-10d33e80a9b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08b95b94-a27a-45bf-87c1-a7063fc72702"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
