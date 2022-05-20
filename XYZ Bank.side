@@ -1,0 +1,400 @@
+{
+  "id": "edd30389-56d7-424d-aadf-03ee40d44250",
+  "version": "2.0",
+  "name": "Bank",
+  "url": "https://www.globalsqa.com",
+  "tests": [{
+    "id": "3fc160dd-6ebc-447b-914f-ba4a413f02c5",
+    "name": "xyz",
+    "commands": [{
+      "id": "0405a0af-af59-490b-afc4-b381a6c949e6",
+      "comment": "",
+      "command": "open",
+      "target": "/angularJs-protractor/BankingProject/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66273bac-e803-4651-b64d-4e7570e27de6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35327e3e-97c9-4801-bc14-42069c8be265",
+      "comment": "",
+      "command": "click",
+      "target": "css=.center:nth-child(3) > .btn",
+      "targets": [
+        ["css=.center:nth-child(3) > .btn", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bank Manager Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adae71a6-2327-4a4e-b79c-5ef1adc2dac0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(1)",
+      "targets": [
+        ["css=.btn-lg:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Customer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd5e079-3156-4449-b479-cb8298eed3ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07381fad-431e-426a-ab76-56b9199513d4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jhanvi"
+    }, {
+      "id": "03f39b30-ae98-49b1-95f9-2eedc747ce7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c7f091-c644-489f-963c-8082fb02850c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Asodiya"
+    }, {
+      "id": "0941110f-2c5e-47c4-9dd9-dbe49f475559",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-pristine",
+      "targets": [
+        ["css=.ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e68abdb4-4b54-453f-b75f-3207e04cb446",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "382424"
+    }, {
+      "id": "159dfb5b-4fc1-4324-95b0-f399a870cd50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "778cc411-4828-4d75-8459-c938a2159099",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please check the details. Customer may be duplicate.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a479ffed-456d-46d7-8848-4f97a734dfe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b1f7deb-f540-4a58-9e03-935135a7fb8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSelect",
+      "targets": [
+        ["id=userSelect", "id"],
+        ["name=userSelect", "name"],
+        ["css=#userSelect", "css:finder"],
+        ["xpath=//select[@id='userSelect']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebae3191-793e-48f3-8ea8-3bd96b4ad94a",
+      "comment": "",
+      "command": "select",
+      "target": "id=userSelect",
+      "targets": [],
+      "value": "label=Jhanvi Asodiya"
+    }, {
+      "id": "c86c4d32-4465-4d36-9614-e2c17fca049f",
+      "comment": "",
+      "command": "click",
+      "target": "id=currency",
+      "targets": [
+        ["id=currency", "id"],
+        ["name=currency", "name"],
+        ["css=#currency", "css:finder"],
+        ["xpath=//select[@id='currency']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea72872-8971-4588-a6e4-9d520b0a119d",
+      "comment": "",
+      "command": "select",
+      "target": "id=currency",
+      "targets": [],
+      "value": "label=Rupee"
+    }, {
+      "id": "aacd097a-e02e-49de-acf5-a60f865af7cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(3)",
+      "targets": [
+        ["css=.btn-lg:nth-child(3)", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Customers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a787d8-316f-4c76-8ab1-ffd9bcf348b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8351d52-9a69-4879-8746-907d19b97b57",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jhanvi"
+    }, {
+      "id": "78dbb0d2-32c1-4fb7-a13d-9c804d048ee0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home",
+      "targets": [
+        ["css=.home", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbcf0bb9-ac68-46f9-9fa9-b465742eb53c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.center:nth-child(1) > .btn",
+      "targets": [
+        ["css=.center:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Customer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e95337f-176c-460b-9f17-6a63a85d2ffc",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSelect",
+      "targets": [
+        ["id=userSelect", "id"],
+        ["name=userSelect", "name"],
+        ["css=#userSelect", "css:finder"],
+        ["xpath=//select[@id='userSelect']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45cac0c8-a46c-4469-8b98-dbf595f3693d",
+      "comment": "",
+      "command": "select",
+      "target": "id=userSelect",
+      "targets": [],
+      "value": "label=Jhanvi Asodiya"
+    }, {
+      "id": "89c059ee-6919-4078-8336-c582c516d0c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4043f65-7ac3-427a-ae27-5ae04b619407",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Deposit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9765a124-4e9a-4e83-94cf-4983890b048b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbe208ef-3ba8-4da3-8234-5adccfa99000",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "ad5291bd-165a-466b-9b12-3946d626f972",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca65903-9a65-4726-8def-6391ad8cd7a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(3)",
+      "targets": [
+        ["css=.btn-lg:nth-child(3)", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Withdrawl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06a9fdbf-8bae-4698-ad83-5b0c331cb860",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e58581a-39b1-4428-9e3a-b44c43134814",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "63331d6a-dc2e-410f-a0b9-869c6419f468",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=//button[@value='']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2ca7733-923a-4a74-8cb9-c04a0addc4bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(1)",
+      "targets": [
+        ["css=.btn-lg:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Transactions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b952c6e1-addc-4ff2-bc72-d539c6075bfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logout",
+      "targets": [
+        ["css=.logout", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f56cc237-fdd6-430e-831f-9fc89d01fad9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home",
+      "targets": [
+        ["css=.home", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b4cd36e8-bd9a-47d6-8cc4-b35ca5fedada",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3fc160dd-6ebc-447b-914f-ba4a413f02c5"]
+  }],
+  "urls": ["https://www.globalsqa.com/"],
+  "plugins": []
+}
